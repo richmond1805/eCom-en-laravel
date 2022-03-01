@@ -19,11 +19,14 @@
 </body>
 <style>
     .custom-login{
-        height: 785px;
-        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        padding-top: 50px;
     }
     img.slider-img{
-        height: 400px !important
+        height: 300px !important
     }
     .custom-product{
         height: 750px
@@ -32,17 +35,25 @@
         background-color: #424e427a !important;
     }
     .trending-image{
-        height: 100px
+        height: 180px
     }
     .trending-item{
         float: left;
         width: 20%;
     }
     .trending-wrapper{
-        margin: 30px;
+        margin: 40px;
     }
     .detail-img{
-        height: 200px;
+        height: 250px;
+    }
+    .search-box{
+        width: 300px !important
+    }
+    .cart-list-devider{
+        border-bottom: 1px solid #cccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 </style>
 </html>

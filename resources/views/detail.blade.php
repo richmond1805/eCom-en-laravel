@@ -1,5 +1,6 @@
 @extends('master')
 @section("content")
+
 <div class="container">
     <div class="row">
         <div class="col-sm-6">
@@ -16,9 +17,11 @@
            <button class="btn btn-primary">Add to Cart</button>
            </form>
            <br><br>
-           <button class="btn btn-success">Buy Now</button>
+           <form action="/ordernow">
+           <button class="btn btn-success" href="ordernow">Buy Now</button>
+            </form>
            <br><br>
         </div>
     </div>
 </div>
-@endsection"
+@endsection

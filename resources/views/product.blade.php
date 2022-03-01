@@ -1,5 +1,6 @@
 @extends('master')
 @section("content")
+
 <div class="custom-product">
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -35,7 +36,7 @@
     </a>
     </div>
         <div class="trending-wrapper">
-            <h3>Best Seller</h3>
+            <h3>Products</h3>
             @foreach($products as $item)
                 <div class="trending-item">
                 <a href="detail/{{$item['id']}}">
